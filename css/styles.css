@@ -1,0 +1,241 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  font-family: serif;
+  color: #8F8F8F;
+  font-weight: bold;
+  width: 80%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  margin: 50px auto 50px auto;
+}
+
+.col-lg-6 {
+  margin: 100 auto 50 auto;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Download-Button  */
+.down-button {
+  margin: 20px 15px 20px 0;
+}
+
+/* Title-Image */
+.rotateMobile {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 50px;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  z-index: =1;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.feature_padding {
+  margin: 60px auto;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.fix {
+  padding: 3.5%;
+  margin-top: 3%;
+}
+
+.text {
+  margin: 0 auto auto;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  margin: 20px 0 0 0;
+  padding: 4% 0 5% 0;
+}
+
+.image-testimonial {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* #PRESS */
+#press {
+  background-color: #ef8172;
+  margin: -10px 0 25px 0;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  margin-right: 300px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  margin-left: 300px;
+}
+
+/* Pricing  */
+#pricing {
+  padding: 80px;
+}
+
+#center {
+  margin: 20px auto 8% auto;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.card {
+  height: 100%;
+}
+
+/* to make the buttons align with each other  */
+.btn1 {
+  margin-top: 42px;
+}
+
+.btn2 {
+  margin-top: 42px;
+}
+
+.btn3 {
+  margin-top: 18px;
+}
+
+/* Added some margin coz elements in  was not getting center aligned  */
+p {
+  margin: 0 auto 0 auto;
+  height: 2;
+}
+
+/* <!-- Call to Action --> */
+#cta {
+  padding: 3%;
+  font-size: 3.5rem;
+}
+
+.cta_h3 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+#footer {
+  padding: 50px;
+}
+
+.fonts_footer {
+  margin: 10px;
+  padding-bottom: 20px;
+  color: #8F8F8F;
+}
+
+/* Media-Query to change mobile view and center aligning things on tablet and phone   */
+@media (max-width:1028px) {
+  .rotateMobile {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
